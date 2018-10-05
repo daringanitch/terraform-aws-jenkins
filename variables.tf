@@ -101,7 +101,7 @@ variable "github_oauth_token" {
 
 variable "github_organization" {
   type        = "string"
-  default     = "cloudposse"
+  default     = "daringanitch"
   description = "GitHub organization, e.g. 'cloudposse'. By default, this module will deploy 'https://github.com/cloudposse/jenkins' repository"
 }
 
